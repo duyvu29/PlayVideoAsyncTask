@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnPlayVideo"
+        android:textAllCaps="false"
+        android:text="Play video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnDownload"
+        android:textAllCaps="false"
+        android:text="Download this video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tvStatus"
+        android:textAlignment="center"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
